@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 80px;
   background-color: lightblue;
   font-size: 1.5rem;
   padding: 10px;
@@ -43,5 +43,24 @@
   height: 100vw;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   z-index: -1;
+}
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 150px; /* Adjust based on header */
+}
+
+.character-item {
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+.character-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
